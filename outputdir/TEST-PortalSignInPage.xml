@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Portal SignIn Page" errors="0" tests="5" failures="5" time="51.638" timestamp="2015-01-16T17:18:18">
+  <testcase classname="Portal SignIn Page" name="should have a title" time="10.333"><failure type="expect" message="timeout: timed out after 10000 msec waiting for spec to complete">timeout: timed out after 10000 msec waiting for spec to complete</failure></testcase>
+  <testcase classname="Portal SignIn Page" name="should Verify Html GUI" time="10.327"><failure type="expect" message="timeout: timed out after 10000 msec waiting for spec to complete">timeout: timed out after 10000 msec waiting for spec to complete</failure></testcase>
+  <testcase classname="Portal SignIn Page" name="should SignIn with login Success" time="10.306"><failure type="expect" message="timeout: timed out after 10000 msec waiting for spec to complete">timeout: timed out after 10000 msec waiting for spec to complete</failure></testcase>
+  <testcase classname="Portal SignIn Page" name="should SignIn with login Fail" time="10.339"><failure type="expect" message="timeout: timed out after 10000 msec waiting for spec to complete">timeout: timed out after 10000 msec waiting for spec to complete</failure></testcase>
+  <testcase classname="Portal SignIn Page" name="should SignIn with forgetPasswotd" time="10.311"><failure type="expect" message="timeout: timed out after 10000 msec waiting for spec to complete">timeout: timed out after 10000 msec waiting for spec to complete</failure></testcase>
+</testsuite>
+</testsuites>

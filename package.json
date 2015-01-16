@@ -1,0 +1,70 @@
+{
+  "name": "AppLB",
+  "version": "0.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "errorhandler": "^1.1.1",
+    "loopback": "^2.8.0",
+    "loopback-boot": "^2.4.0",
+    "loopback-datasource-juggler": "^2.7.0",
+    "serve-favicon": "^2.0.1",
+    "express-session": "~1.7.6",
+    "shelljs": "^0.3.0",
+    "strongloop": "^2.9.2",
+    "underscore": "^1.7.0",
+    "debug": "~2.0.0"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0"
+  },
+  "devDependencies": {
+
+    "matchdep": "latest",
+
+    "grunt": "latest",
+    "grunt-css": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-shell": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-karma": "latest",
+    "grunt-open": "latest",
+    "grunt-protractor-runner":"latest",
+    "grunt-concurrent" : "latest",
+
+    "karma-mocha": "latest",
+    "karma-chrome-launcher": "latest",
+    "karma-safari-launcher": "latest",
+    "karma-firefox-launcher": "latest",
+    "karma-ng-scenario": "latest",
+    "karma-script-launcher": "latest",
+    "karma-html2js-preprocessor": "latest",
+    "karma-jasmine": "latest",
+    "karma-requirejs": "latest",
+    "karma-coffee-preprocessor": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "karma-junit-reporter": "latest",
+    "karma": "latest",
+    "karma-coverage": "latest",
+
+
+
+    "chai": "latest",
+    "ng-midway-tester": "latest",
+    "jshint": "latest",
+    "protractor": "latest",
+    "mkdirp": "latest",
+    "jasmine-reporters": "latest",
+    "protractor-html-screenshot-reporter" : "latest",
+
+
+
+    "bower": "latest"
+  }
+}

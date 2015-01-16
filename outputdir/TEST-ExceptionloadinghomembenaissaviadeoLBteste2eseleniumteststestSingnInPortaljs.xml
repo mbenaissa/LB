@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Exception loading: /home/mbenaissa/viadeo/LB/test/e2e/selenium/tests/testSingnInPortal.js" errors="0" tests="1" failures="1" time="0.005" timestamp="2015-01-16T16:29:01">
+  <testcase classname="Exception loading: /home/mbenaissa/viadeo/LB/test/e2e/selenium/tests/testSingnInPortal.js" name="Error" time="0.004"><failure type="expect" message="TypeError: Object [object Object] has no method &amp;apos;xpth&amp;apos;">TypeError: Object [object Object] has no method &amp;apos;xpth&amp;apos;
+    at Object.&amp;lt;anonymous&amp;gt; (/home/mbenaissa/viadeo/LB/test/e2e/selenium/pages/LoginPage.js:7:28)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.&amp;lt;anonymous&amp;gt; (/home/mbenaissa/viadeo/LB/test/e2e/selenium/tests/testSingnInPortal.js:1:79)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)</failure></testcase>
+</testsuite>
+</testsuites>

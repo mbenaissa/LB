@@ -1,0 +1,8 @@
+{
+  "name": "circular-deps",
+  "version": "1.0.0",
+  "dependencies": {
+    "left": "1.0.0",
+    "right": "1.0.0"
+  }
+}
