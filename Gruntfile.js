@@ -1,14 +1,5 @@
 module.exports = function(grunt) {
-
-  // grunt.loadNpmTasks('grunt-shell');
-  // grunt.loadNpmTasks('grunt-open');
-  // grunt.loadNpmTasks('grunt-contrib-watch');
-  // grunt.loadNpmTasks('grunt-contrib-concat');
-  // grunt.loadNpmTasks('grunt-contrib-connect');
-  // grunt.loadNpmTasks('grunt-karma');
-
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-
 
   grunt.initConfig({
     shell: {
@@ -101,7 +92,7 @@ module.exports = function(grunt) {
 
     open: {
       devserver: {
-        path: 'http://localhost:3000'
+        path: 'http://localhost:3001'
       },
       coverage: {
         path: 'http://localhost:5555'
@@ -139,7 +130,7 @@ module.exports = function(grunt) {
         singleRun: true,
         reporters: ['progress', 'coverage'],
         preprocessors: {
-          'app/scripts/*.js': ['coverage']
+          'client/scripts/{,*/}*.js': ['coverage']
         },
         coverageReporter: {
           type : 'html',

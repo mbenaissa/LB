@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-<testsuite name="Youtube App Page" errors="0" tests="3" failures="3" time="20.546" timestamp="2015-01-16T17:17:58">
+<testsuite name="Youtube App Page" errors="0" tests="3" failures="3" time="20.793" timestamp="2015-01-19T16:52:52">
   <testcase classname="Youtube App Page" name="should have a title" time="NaN"><failure type="expect" message="UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 56 milliseconds
-Build info: version: &amp;apos;2.42.2&amp;apos;, revision: &amp;apos;6a6995d&amp;apos;, time: &amp;apos;2014-06-03 17:42:03&amp;apos;
-System info: host: &amp;apos;auto-win7-ie8&amp;apos;, ip: &amp;apos;192.168.6.237&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0&amp;apos;
-Session ID: 9a2a1f85-b3f9-492c-9153-b67c5fb3e76d
+Command duration or timeout: 62 milliseconds
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf&amp;apos;, time: &amp;apos;2014-10-23 20:02:37&amp;apos;
+System info: host: &amp;apos;auto-win7-ie9&amp;apos;, ip: &amp;apos;192.168.6.238&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_21&amp;apos;
+Session ID: da849597-b2c0-42c7-8049-f9f9a1f723b0
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:7457/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]">UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 56 milliseconds
-Build info: version: &amp;apos;2.42.2&amp;apos;, revision: &amp;apos;6a6995d&amp;apos;, time: &amp;apos;2014-06-03 17:42:03&amp;apos;
-System info: host: &amp;apos;auto-win7-ie8&amp;apos;, ip: &amp;apos;192.168.6.237&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0&amp;apos;
-Session ID: 9a2a1f85-b3f9-492c-9153-b67c5fb3e76d
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:46383/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]">UnknownError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 62 milliseconds
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf&amp;apos;, time: &amp;apos;2014-10-23 20:02:37&amp;apos;
+System info: host: &amp;apos;auto-win7-ie9&amp;apos;, ip: &amp;apos;192.168.6.238&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_21&amp;apos;
+Session ID: da849597-b2c0-42c7-8049-f9f9a1f723b0
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:7457/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:46383/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
     at new bot.Error (/home/mbenaissa/viadeo/LB/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
     at Object.bot.response.checkResponse (/home/mbenaissa/viadeo/LB/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
     at /home/mbenaissa/viadeo/LB/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
@@ -53,18 +53,18 @@ Error
     at Object.Module._extensions..js (module.js:474:10)
     at Module.load (module.js:356:32)
     at Function.Module._load (module.js:312:12)</failure><failure type="expect" message="UnknownError: JavaScript error in async script. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 55 milliseconds
-Build info: version: &amp;apos;2.42.2&amp;apos;, revision: &amp;apos;6a6995d&amp;apos;, time: &amp;apos;2014-06-03 17:42:03&amp;apos;
-System info: host: &amp;apos;auto-win7-ie8&amp;apos;, ip: &amp;apos;192.168.6.237&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0&amp;apos;
-Session ID: 9a2a1f85-b3f9-492c-9153-b67c5fb3e76d
+Command duration or timeout: 78 milliseconds
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf&amp;apos;, time: &amp;apos;2014-10-23 20:02:37&amp;apos;
+System info: host: &amp;apos;auto-win7-ie9&amp;apos;, ip: &amp;apos;192.168.6.238&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_21&amp;apos;
+Session ID: da849597-b2c0-42c7-8049-f9f9a1f723b0
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:7457/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]">UnknownError: JavaScript error in async script. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 55 milliseconds
-Build info: version: &amp;apos;2.42.2&amp;apos;, revision: &amp;apos;6a6995d&amp;apos;, time: &amp;apos;2014-06-03 17:42:03&amp;apos;
-System info: host: &amp;apos;auto-win7-ie8&amp;apos;, ip: &amp;apos;192.168.6.237&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0&amp;apos;
-Session ID: 9a2a1f85-b3f9-492c-9153-b67c5fb3e76d
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:46383/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]">UnknownError: JavaScript error in async script. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 78 milliseconds
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf&amp;apos;, time: &amp;apos;2014-10-23 20:02:37&amp;apos;
+System info: host: &amp;apos;auto-win7-ie9&amp;apos;, ip: &amp;apos;192.168.6.238&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_21&amp;apos;
+Session ID: da849597-b2c0-42c7-8049-f9f9a1f723b0
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:7457/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:46383/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
     at new bot.Error (/home/mbenaissa/viadeo/LB/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/error.js:113:18)
     at Object.bot.response.checkResponse (/home/mbenaissa/viadeo/LB/node_modules/protractor/node_modules/selenium-webdriver/lib/atoms/response.js:106:9)
     at /home/mbenaissa/viadeo/LB/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver/webdriver.js:362:20
@@ -104,7 +104,7 @@ Error
     at Object.Module._extensions..js (module.js:474:10)
     at Module.load (module.js:356:32)
     at Function.Module._load (module.js:312:12)</failure></testcase>
-  <testcase classname="Youtube App Page" name="should add one and two" time="10.276"><failure type="expect" message="timeout: timed out after 10000 msec waiting for spec to complete">timeout: timed out after 10000 msec waiting for spec to complete</failure></testcase>
-  <testcase classname="Youtube App Page" name="should add four and six" time="10.261"><failure type="expect" message="timeout: timed out after 10000 msec waiting for spec to complete">timeout: timed out after 10000 msec waiting for spec to complete</failure></testcase>
+  <testcase classname="Youtube App Page" name="should add one and two" time="10.325"><failure type="expect" message="timeout: timed out after 10000 msec waiting for spec to complete">timeout: timed out after 10000 msec waiting for spec to complete</failure></testcase>
+  <testcase classname="Youtube App Page" name="should add four and six" time="10.455"><failure type="expect" message="timeout: timed out after 10000 msec waiting for spec to complete">timeout: timed out after 10000 msec waiting for spec to complete</failure></testcase>
 </testsuite>
 </testsuites>
