@@ -16,7 +16,11 @@
     "shelljs": "^0.3.0",
     "strongloop": "^2.9.2",
     "underscore": "^1.7.0",
-    "debug": "~2.0.0"
+    "debug": "~2.0.0",
+    "aglio": "^1.14.0",
+    "async": "^0.9.0",
+    "lodash": "^2.4.1",
+    "node-fs": "^0.1.7"
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
