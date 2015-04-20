@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Youtube App Page" errors="0" tests="3" failures="0" time="4.025" timestamp="2015-02-10T10:13:57">
+  <testcase classname="Youtube App Page" name="should have a title" time="NaN"></testcase>
+  <testcase classname="Youtube App Page" name="should add one and two" time="3.224"></testcase>
+  <testcase classname="Youtube App Page" name="should add four and six" time="0.793"></testcase>
+</testsuite>
+</testsuites>

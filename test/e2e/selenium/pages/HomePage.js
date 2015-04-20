@@ -11,7 +11,7 @@ homePage = {
     },
     verifyHtml: function(key1, key2) {
         var result;
-        result = this.menu_Portal.isPresent() && this.menu_Docs.isPresent() && false;
+        result = this.menu_Portal.isPresent();
         return result;
     }
 

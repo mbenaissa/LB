@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Portal SignIn Page" errors="0" tests="5" failures="0" time="13.997" timestamp="2015-02-10T10:14:01">
+  <testcase classname="Portal SignIn Page" name="should have a title" time="1.665"></testcase>
+  <testcase classname="Portal SignIn Page" name="should Verify Html GUI" time="2.328"></testcase>
+  <testcase classname="Portal SignIn Page" name="should SignIn with login Success" time="4.967"></testcase>
+  <testcase classname="Portal SignIn Page" name="should SignIn with login Fail" time="2.075"></testcase>
+  <testcase classname="Portal SignIn Page" name="should SignIn with forgetPasswotd" time="2.931"></testcase>
+</testsuite>
+</testsuites>

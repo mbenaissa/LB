@@ -29,7 +29,7 @@ describe("Unit: Testing Controllers", function() {
 
   it('should have a properly working VideoCtrl controller', inject(function($rootScope, $controller, $httpBackend) {
     var searchID = 'cars';
-    var response = $httpBackend.expectJSONP('https://gdata.youtube.com/feeds/api/videos/' + searchID + '?v=2&alt=json&callback=JSON_CALLBACK');
+    var response = $httpBackend.expectJSONP(  );
     response.respond(null);
 
     var $scope = $rootScope.$new();

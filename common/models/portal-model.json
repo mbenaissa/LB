@@ -10,6 +10,9 @@
     "type": {
       "type": "string",
       "required": true
+    },
+    "additionalKey": {
+      "type": "string"
     }
   },
   "validations": [],

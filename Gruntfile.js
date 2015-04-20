@@ -73,7 +73,7 @@ module.exports = function(grunt) {
       },
       coverage: {
         options: {
-          base: 'coverage/',
+          base: 'outputdir/coverage/',
           port: 5555,
           keepalive: true
         }
@@ -92,7 +92,7 @@ module.exports = function(grunt) {
 
     open: {
       devserver: {
-        path: 'http://localhost:3001'
+        path: 'http://localhost:3002'
       },
       coverage: {
         path: 'http://localhost:5555'
@@ -119,7 +119,7 @@ module.exports = function(grunt) {
       e2e: {
         configFile: './test/karma-e2e.conf.js',
         autoWatch: false,
-        singleRun: true
+        singleRun: true,
       },
       e2e_auto: {
         configFile: './test/karma-e2e.conf.js'
@@ -134,7 +134,7 @@ module.exports = function(grunt) {
         },
         coverageReporter: {
           type : 'html',
-          dir : 'coverage/'
+          dir : 'outputdir/coverage/'
         }
       }
     },
@@ -154,23 +154,17 @@ module.exports = function(grunt) {
     },
 
     protractor: {
-      options: {
-        keepAlive: true,
-        configFile: "./test/protractor.config.js"
-      },
-
       local: {
-
        options: {
          keepAlive: true,
          debug: false, // use browser.debugger()
-         // to be created
          configFile: "./test/protractor.config-local.js"
         }
       },
-      singlerun: {
+      prod: {
         options: {
-          debug: false
+          debug: false,
+          configFile: "./test/protractor.config.js"
         }
       },
       auto: {
@@ -225,10 +219,10 @@ module.exports = function(grunt) {
   grunt.registerTask('test', ['jshint','connect:testserver','karma:unit','karma:midway', 'karma:e2e']);
   grunt.registerTask('test:unit', ['karma:unit']);
   grunt.registerTask('test:midway', ['connect:testserver','karma:midway']);
-  //grunt.registerTask('test:e2e', ['connect:testserver', 'karma:e2e']);
+  grunt.registerTask('test:e2e-Integ', ['karma:e2e']);
  // grunt.registerTask('test:e2e', ['shell:startServer', 'karma:e2e']);
 
-  grunt.registerTask('test:e2e', ['protractor:singlerun']);
+  grunt.registerTask('test:e2e', ['protractor:prod']);
 
 
   //keeping these around for legacy use

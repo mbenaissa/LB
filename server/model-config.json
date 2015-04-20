@@ -29,5 +29,21 @@
   "portalModel": {
     "dataSource": "db",
     "public": true
+  },
+  "swagger_api": {
+    "dataSource": null,
+    "public": true
+  },
+  "Pet": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PetInput": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ErrorModel": {
+    "dataSource": "db",
+    "public": true
   }
 }

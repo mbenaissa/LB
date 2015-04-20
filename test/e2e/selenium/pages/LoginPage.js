@@ -4,7 +4,7 @@ loginPage = {
     url: '#/login',
     // elements
     Div_Presentation: element(by.id('main-content')),
-    btn_SignIn: element(by.xpath('//*[@id="main-content"]/div/div[2]/div/button')),
+    btn_SignIn: element(by.xpath('//*[@id="wrap"]/div/div/div[1]/div/div[1]/div/button')),
     menu_Portal: element(by.xpath('/html/body/div[1]/nav/div/div/a')),
     input_UserName: element(by.id('username')),
     inputPassword: element(by.id('password')),

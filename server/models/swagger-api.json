@@ -1,0 +1,13 @@
+{
+  "name": "swagger_api",
+  "base": "Model",
+  "idInjection": true,
+  "http": {
+    "path": "api"
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

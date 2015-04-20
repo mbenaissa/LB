@@ -5,7 +5,8 @@ module.exports = function(config) {
 
   conf.files = conf.files.concat([
     //test files
-    './test/e2e/selenium/*.js',
+    //'node_modules/supertest/test/supertest.js',
+    './test/e2e/superTest/*.js',
    // './test/e2e/**/*.js'
   ]);
 
@@ -15,7 +16,7 @@ module.exports = function(config) {
 
   conf.urlRoot = '/__karma__/';
 
-  conf.frameworks = ['ng-scenario'];
+  conf.frameworks = ['requirejs','mocha', 'chai'];
 
   config.set(conf);
 };

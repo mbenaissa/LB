@@ -60,19 +60,19 @@ exports.config = {
             browserName: 'chrome',
             // platform: 'Linux'
         }
-         ,
-         {
-           browserName: 'firefox',
-           //platform: 'Linux'
-         },
+         // ,
+         // {
+         //   browserName: 'firefox',
+         //   //platform: 'Linux'
+         // },
         //  {
         //    browserName: 'opera',
         // //  platform: 'OS X 10.9'
         //  },
-        {
-           browserName: 'internet explorer',
-           //platform: 'Windows 8.1'
-        }
+        // {
+        //    browserName: 'internet explorer',
+        //    //platform: 'Windows 8.1'
+        // }
     ],
 
 
@@ -80,7 +80,7 @@ exports.config = {
 
     // A base URL for your application under test. Calls to protractor.get()
     // with relative paths will be prepended with this.
-    baseUrl: ' https://192.168.3.60:3001',
+    baseUrl: ' http://192.168.2.241:3000',
 
     // Selector for the element housing the angular app - this defaults to
     // body, but is necessary if ng-app is on a descendant of <body>

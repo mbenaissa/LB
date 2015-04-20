@@ -22,9 +22,7 @@
     "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
-
     "matchdep": "latest",
-
     "grunt": "latest",
     "grunt-css": "latest",
     "grunt-contrib-connect": "latest",
@@ -35,10 +33,11 @@
     "grunt-contrib-copy": "latest",
     "grunt-karma": "latest",
     "grunt-open": "latest",
-    "grunt-protractor-runner":"latest",
-    "grunt-concurrent" : "latest",
-
+    "grunt-protractor-runner": "latest",
+    "grunt-concurrent": "latest",
     "karma-mocha": "latest",
+    "karma-chai": "latest",
+    "karma-browserifast": "latest",
     "karma-chrome-launcher": "latest",
     "karma-safari-launcher": "latest",
     "karma-firefox-launcher": "latest",
@@ -52,19 +51,28 @@
     "karma-junit-reporter": "latest",
     "karma": "latest",
     "karma-coverage": "latest",
-
-
-
     "chai": "latest",
     "ng-midway-tester": "latest",
     "jshint": "latest",
     "protractor": "latest",
     "mkdirp": "latest",
     "jasmine-reporters": "latest",
-    "protractor-html-screenshot-reporter" : "latest",
-
-
-
-    "bower": "latest"
-  }
+    "protractor-html-screenshot-reporter": "latest",
+    "bower": "latest",
+    "supertest": "^0.15.0"
+  },
+  "bundleDependencies": [
+    "compression",
+    "debug",
+    "errorhandler",
+    "express-session",
+    "loopback",
+    "loopback-boot",
+    "loopback-datasource-juggler",
+    "loopback-explorer",
+    "serve-favicon",
+    "shelljs",
+    "strongloop",
+    "underscore"
+  ]
 }
