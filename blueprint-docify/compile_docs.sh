@@ -60,4 +60,4 @@ echo "git commit -m "Update API documentation [skip ci][no-ci]""
 git commit -m "Update API documentation [skip ci][no-ci]"
 
 echo "git push git@github.com:renewablefunding/blueprint-docify.git gh-pages"
-git push git@github.com:renewablefunding/blueprint-docify.git gh-pages
+git push git@github.com:mbenaissa/LB.git gh-pages
